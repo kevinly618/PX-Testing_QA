@@ -17,7 +17,7 @@ function login() {
   var c;
 
   if (a != "") {
-    if (a == "kevinly618@gmail.com_QA") {
+    if (a == "kevinly618_QA@gmail.com") {
       alert("valid User");
       b = a.substr(0, 8);
 
@@ -40,7 +40,7 @@ function login() {
     window.location = "index.html"; // Keep your index page (page you want to navigate after login)
 
 
-  } else if (a == "bsons@gmail.com_QA") {
+  } else if (a == "bsons_QA@gmail.com") {
       alert("valid User");
 
       b = a.substr(0, 8);
@@ -64,8 +64,8 @@ function login() {
 
     }
     else
-      alert("Invalid User,enter kevinly618@gmail.com_QA or bsons@gmail.com_QA");
+      alert("Invalid User,enter kevinly618_QA@gmail.com or bsons_QA@gmail.com");
   } else
-    alert("enter kevinly618@gmail.com_QA or bsons@gmail.com_QA");
+    alert("enter kevinly618_QA@gmail.com or bsons_QA@gmail.com");
   return b;
 }
