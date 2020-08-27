@@ -24,7 +24,26 @@ function loginA(){
             "id":"1P02JCQSL9U0L1CYDINVA002GDEEI2LK32JS_QA", //Required
             "name":"Betty Nguyen Corporation_QA",
          });
-    console.log('LoginA function complete')
+    window.alert("Done");
+}
+
+function loginB(){
+  var a = "bsons_QA@gmail.com"
+
+        aptrinsic("identify",
+          {
+          //User Fields
+            "id": a, // Required for logged in app users
+            "email": a,
+            "firstName": "Betty",
+            "lastName": "S",
+          },
+          {
+          //Account Fields
+            "id":"1P02JCQSL9U0L1CYDINVA002GDEEI2LK32JS_QA", //Required
+            "name":"Betty Nguyen Corporation_QA",
+         });
+    window.alert("Done");
 }
 // // LOGIN PORTION AND PX IDENTIFY CODE
 // function login() {
