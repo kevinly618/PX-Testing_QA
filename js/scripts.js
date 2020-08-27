@@ -9,7 +9,7 @@
 })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-9EQZKYSPO8MH-2-3");
 
 function loginA(){
-  var a = "kevinly618_Stage@gmail.com"
+  var a = "kevinly618_QA@gmail.com"
 
         aptrinsic("identify",
           {
